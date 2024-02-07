@@ -13,12 +13,12 @@ function About() {
     return (
         <div>
             <SectionTitle title="About Me"/>
-            <div className="flex w-full items-center">
-                <div className="h-[50vh] w-1/2">
+            <div className="flex w-full items-center sm:flex-col">
+                <div className="h-[50vh] w-1/2 sm:w-full">
                     {/* Ensure dotlottie-player integration is correct for your project */}
                     <dotlottie-player src="https://lottie.host/0fd2d6ae-613a-4f6b-bcd0-6e564cbbbe6f/RTPqVrVEgL.json" background="transparent" speed="1" autoplay loop></dotlottie-player>
                 </div>
-                <div className="flex flex-col gap-5 w-1/2">
+                <div className="flex flex-col gap-5 w-1/2 sm:full">
                 <p className="text-white">
                         As a Master’s student in Engineering Management at Purdue University, I blend analytical rigor with a passion for product innovation. I've led teams and projects that enhanced operational workflows and customer satisfaction, revealing my drive for efficiency and actionable insights.
                     </p>
