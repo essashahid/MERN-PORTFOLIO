@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap')
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.skill-box {
+  border: 1px solid white; /* Adjust the border width and style as needed */
+  padding: 1rem; /* Adjust padding as needed */
+  margin: 0.5rem; /* Adjust margin as needed */
+  /* justify center */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background color */
+  /* min-w-[160px] h-[100px] */
+  /* border-radius */
+  border-radius: 0.5rem; /* Adjust border radius as needed */
+  /* box shadow */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adjust box shadow as needed */
+  /* text color */
+  
+}
