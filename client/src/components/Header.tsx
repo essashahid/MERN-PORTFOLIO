@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-function Header() {
+const Header: React.FC = () => {
   return (
     <div className="p-5 bg-primary flex justify-between">
       <h1 className="text-secondary text-4xl font-semibold">E</h1>
@@ -9,5 +9,4 @@ function Header() {
     </div>
   );
 }
-
 export default Header;
